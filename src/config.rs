@@ -1,16 +1,17 @@
 use std::collections::HashMap;
 
-use bevy::input::keyboard::KeyCode;
+use bevy_input::keyboard::KeyCode;
+use bevy_input::mouse::MouseButton;
 use serde_yaml;
 
-use crate::input::Axis;
+use crate::input::KeyBindAxis;
 
 const DEFAULT_FILE_PATH: &str = "assets/bindings.yaml";
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, Clone)]
 pub struct KeyBindConfig {
-    pub actions: HashMap<KeyCode, String>,
-    pub axes: HashMap<Axis, String>,
+    pub actions: HashMap<String, String>,
+    pub axes: HashMap<String, String>,
 }
 
 impl KeyBindConfig {

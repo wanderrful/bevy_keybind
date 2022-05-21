@@ -1,11 +1,17 @@
 # Action keys are KeyCodes.
 actions:
-  X: HelloWorld
   W: MoveForward
+  A: MoveLeft
+  S: MoveBack
+  D: MoveRight
+  C: Crouch
+  Mouse1: Fire
+  Mouse2: Zoom
+  Mouse3: PushToTalk
 
 # Axis keys are MouseX or MouseY.
 axes:
-  MouseX: SayHey
-  MouseY: SayBye
+  MouseX: LookRight
+  MouseY: LookDown
 
 # When this file is read by the KeyBindPlugin, the values are read as `String`.
