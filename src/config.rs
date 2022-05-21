@@ -1,10 +1,6 @@
 use std::collections::HashMap;
 
-use bevy_input::keyboard::KeyCode;
-use bevy_input::mouse::MouseButton;
 use serde_yaml;
-
-use crate::input::KeyBindAxis;
 
 const DEFAULT_FILE_PATH: &str = "assets/bindings.yaml";
 
