@@ -3,6 +3,7 @@ name = "bevy_keybind"
 description = "Common event interface for bevy_input, so that we can better separate logic from configuration."
 version = "1.0.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
 authors = [ "https://github.com/wanderrful" ]
 
 [dependencies]
