@@ -1,0 +1,11 @@
+# Action keys are KeyCodes.
+actions:
+  X: HelloWorld
+  W: MoveForward
+
+# Axis keys are MouseX or MouseY.
+axes:
+  MouseX: SayHey
+  MouseY: SayBye
+
+# When this file is read by the KeyBindPlugin, the values are read as `String`.
