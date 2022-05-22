@@ -67,3 +67,8 @@ accordingly. This way, you don't have to worry about hard coding specific KeyCod
 Instead, you can just set your game up to react to the Strings you specify in your YAML file! You can even take it
 further, by making each of those Strings (e.g. `MoveForward`, `LookRight`, etc) be an enum and then map the enums to
 actual game actions.
+
+## To Do
+
+1. Add support for more devices (`bevy_input` largely supports them already, but I just need to do the mappings)
+2. Add support for modifiers (i.e. Alt+F4 or 2*Shift+C should work properly as a "key" in the bindings file)

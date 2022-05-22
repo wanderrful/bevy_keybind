@@ -1,4 +1,4 @@
-# Action keys are KeyCodes.
+# Action keys are KeyCodes or MouseButtons.
 actions:
   W: MoveForward
   A: MoveLeft
